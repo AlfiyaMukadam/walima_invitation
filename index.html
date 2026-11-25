@@ -4,8 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#302329">
-<meta name="description" content="A warm invitation from the Khan and Vedak families to the Walima reception of  Danish and  Alfiya on 18 December 2026.">
-<title>Ta’am-e-Walima |  Danish &  Alfiya</title>
+<meta name="description" content="A warm invitation from the Khan and Vedak families to the Walima reception of Er. Danish and Er. Alfiya on 18 December 2026.">
+<title>Ta’am-e-Walima | Er. Danish & Er. Alfiya</title>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -4182,7 +4182,7 @@ footer { background:#302329 !important; color:#f3e9e5 !important; }
 <style id="walima-plum-final-theme">
 /* ==========================================================
    TA'AM-E-WALIMA — MIDNIGHT PLUM & CHAMPAGNE ROSE
-   Final theme lay Existing markup, paths, animations and
+   Final theme layer. Existing markup, paths, animations and
    JavaScript are intentionally left unchanged.
    ========================================================== */
 :root {
@@ -4619,9 +4619,9 @@ footer p { color: rgba(255,252,250,.78) !important; }
     <div class="opening-name-label">With the blessings of the Khan &amp; Vedak families</div>
 
     <h1 class="opening-couple">
-      <span class="person-name"> Danish   </span>
+      <span class="person-name">Er. Danish   </span>
       <span class="name-amp" aria-hidden="true">&amp;</span>
-      <span class="person-name"> Alfiya</span>
+      <span class="person-name">Er. Alfiya</span>
     </h1>
 
     <span class="opening-script">A celebration of love, family &amp; togetherness.</span>
@@ -4629,7 +4629,7 @@ footer p { color: rgba(255,252,250,.78) !important; }
     <div class="opening-date"><span class="date-day">18</span><span class="date-month">DECEMBER</span><span class="date-year">2026</span></div>
 
     <p class="opening-invitation-copy">
-      With gratitude to Allah, the Khan &amp; Vedak families invite you to grace the Walima reception of  Danish &amp;  Alfiya.
+      With gratitude to Allah, the Khan &amp; Vedak families invite you to grace the Walima reception of Er. Danish &amp; Er. Alfiya.
     </p>
 
     <div class="opening-action-row">
@@ -4683,9 +4683,9 @@ footer p { color: rgba(255,252,250,.78) !important; }
     </div>
 
     <h1 class="hero-couple">
-      <span class="hero-person"><small></small> Danish</span>
+      <span class="hero-person"><small>ER.</small> Danish</span>
       <span class="hero-amp" aria-hidden="true">&amp;</span>
-      <span class="hero-person"><small></small> Alfiya</span>
+      <span class="hero-person"><small>ER.</small> Alfiya</span>
     </h1>
 
     <div class="hero-subtitle">
@@ -4775,7 +4775,7 @@ footer p { color: rgba(255,252,250,.78) !important; }
       <article class="family-card groom-card reveal">
         <div class="couple-card-ornament" aria-hidden="true">✧</div>
         <span class="family-label">The Groom</span>
-        <span class="family-name-kicker"></span>
+        <span class="family-name-kicker">ER.</span>
         <h3>Danish</h3>
         <div class="couple-name-rule" aria-hidden="true"><span>✦</span></div>
         <p class="family-relation">Son of</p>
@@ -4791,7 +4791,7 @@ footer p { color: rgba(255,252,250,.78) !important; }
       <article class="family-card bride-card reveal">
         <div class="couple-card-ornament" aria-hidden="true">✧</div>
         <span class="family-label">The Bride</span>
-        <span class="family-name-kicker"></span>
+        <span class="family-name-kicker">ER.</span>
         <h3>Alfiya</h3>
         <div class="couple-name-rule" aria-hidden="true"><span>✦</span></div>
         <p class="family-relation">Daughter of</p>
@@ -4865,7 +4865,7 @@ footer p { color: rgba(255,252,250,.78) !important; }
     <div class="heading reveal">
       <span class="kicker">The groom’s family invites you</span>
       <h2>Dawat-e-Walima</h2>
-      <p>We request the pleasure of your company as we celebrate the Walima of  Danish &amp;  Alfiya.</p>
+      <p>We request the pleasure of your company as we celebrate the Walima of Er. Danish &amp; Er. Alfiya.</p>
     </div>
 
     <div class="event-grid walima-only-grid">
@@ -4887,7 +4887,7 @@ footer p { color: rgba(255,252,250,.78) !important; }
 
           <p class="event-tagline">Together in joy, surrounded by love</p>
 
-          <p class="event-detail"><strong> Danish &amp;  Alfiya</strong></p>
+          <p class="event-detail"><strong>Er. Danish &amp; Er. Alfiya</strong></p>
           <p class="event-detail"><strong>Friday, 18 December 2026</strong></p>
           <p class="event-detail"><strong>7:00 PM onwards</strong></p>
           <p class="event-detail"><strong>Venue</strong></p>
@@ -4929,7 +4929,7 @@ footer p { color: rgba(255,252,250,.78) !important; }
       <h2>Little Moments, Forever Memories</h2>
       <p>
         A few photographs, a thousand emotions
-        and memories we will carry into forev
+        and memories we will carry into forever.
       </p>
     </div>
 
@@ -5183,7 +5183,7 @@ if ("IntersectionObserver" in window) {
 
       if (entry.isIntersecting) {
         entry.target.classList.add("visible");
-        revealObservunobserve(entry.target);
+        revealObserver.unobserve(entry.target);
       }
 
     });
@@ -5193,7 +5193,7 @@ if ("IntersectionObserver" in window) {
   });
 
   document.querySelectorAll(".reveal").forEach(element => {
-    revealObservobserve(element);
+    revealObserver.observe(element);
   });
 
 } else {
