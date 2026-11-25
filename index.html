@@ -4,7 +4,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#073e48">
+<meta name="theme-color" content="#302329">
 <meta name="description" content="A warm invitation from the Khan and Vedak families to the Walima reception of Er. Danish and Er. Alfiya on 18 December 2026.">
 <title>Ta’am-e-Walima | Er. Danish & Er. Alfiya</title>
 
@@ -3632,6 +3632,145 @@ nav a { flex-shrink:0; }
   .couple-showcase .family-card{min-height:320px;padding-top:28px}
 }
 
+
+
+/* =========================================================
+   NEW WALIMA PALETTE — DUSTY ROSE · COCOA · CHAMPAGNE GOLD
+   Replaces the previous teal treatment throughout the page.
+========================================================= */
+:root {
+  --teal:#68494f;
+  --deep:#302329;
+  --gold:#b89a78;
+  --gold-light:#e5d2c7;
+  --cream:#f3e9e5;
+  --paper:#fbf5f2;
+  --ink:#49383d;
+  --muted:#806f70;
+}
+html, body { color:var(--ink); }
+body { background:#f4ece9; }
+.opening {
+  background:
+    linear-gradient(180deg,rgba(38,25,31,.48) 0%,rgba(48,31,39,.72) 52%,rgba(38,25,31,.9) 100%),
+    linear-gradient(90deg,rgba(48,31,39,.42),transparent 50%,rgba(48,31,39,.42)),
+    url("./handpicture.jpg") center 44%/cover no-repeat !important;
+}
+.invitation-door {
+  background:linear-gradient(145deg,#76545d 0%,#50363f 43%,#302329 100%) !important;
+  border-color:rgba(229,210,199,.68) !important;
+}
+.hero {
+  background-color:#39282e !important;
+}
+.countdown-section {
+  background:linear-gradient(135deg,#3b2931,#63454d 55%,#302329) !important;
+}
+footer { background:#302329 !important; color:#f3e9e5 !important; }
+.heading h2,.family-card h3,.hosts h3,.event-content h3,.remembrance h3 { color:#68494f !important; }
+.event-content h3 { color:#68494f !important; }
+.event-map,.submit-button,.card-download {
+  background:#68494f !important; border-color:#68494f !important; color:#fff8f5 !important;
+}
+.event-map:hover,.submit-button:hover,.card-download:hover {
+  background:#4b343b !important; color:#fff8f5 !important;
+}
+.hosts { background:linear-gradient(135deg,#fbf5f2,#f0e4e1) !important; border-color:#d5b9ad !important; }
+.family { background:#f1e7e4 !important; }
+.family-card { background:linear-gradient(145deg,#fffaf8 0%,#f5eae7 100%) !important; border-color:#d3b5aa !important; }
+.family-card::before { border-color:#dfc8be !important; }
+.family-card::after { background:#fbf5f2 !important; color:#a98469 !important; }
+.family-card p { color:#705d60 !important; }
+.family-card p:nth-of-type(2) { color:#574348 !important; }
+.remembrance { background:linear-gradient(145deg,#fbf5f2,#f0e4e1) !important; border-color:#d5b9ad !important; }
+.remembrance-name { color:#594247 !important; }
+.event-card { border-color:#d8c0b6 !important; }
+.gallery .photo-wall figure { background:#fbf5f2 !important; border-color:#d8c0b6 !important; }
+.gallery .photo-wall figure img { background:#f0e5e1 !important; }
+.opening-card { border-color:rgba(229,210,199,.65) !important; }
+.opening h1,.opening .opening-title,.hero h1,.hero-couple .hero-person { color:#fff8f5 !important; }
+.opening .opening-note,.hero-subtitle,.hero-blessing { color:#f0ddd5 !important; }
+
+/* Couple showcase: balanced arched panels, groom first, bride second */
+.couple-showcase {
+  display:grid;
+  grid-template-columns:minmax(0,1fr) 92px minmax(0,1fr);
+  align-items:center;
+  gap:clamp(14px,2.4vw,28px);
+  width:100%;
+  max-width:1040px;
+  margin:clamp(32px,4.5vw,52px) auto 0;
+}
+.couple-showcase .family-card {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:flex-start;
+  min-width:0;
+  min-height:390px;
+  padding:clamp(30px,3.6vw,44px) clamp(15px,2.4vw,28px) 25px;
+  text-align:center;
+  border:1px solid #c9a99d;
+  border-radius:48% 48% 8px 8px / 16% 16% 8px 8px;
+  background:linear-gradient(155deg,#fffaf8 0%,#f2e4e1 100%) !important;
+  box-shadow:0 18px 42px rgba(63,39,45,.09),inset 0 0 0 6px rgba(255,250,248,.72);
+}
+.couple-showcase .family-card::before {
+  inset:12px;
+  border:1px solid rgba(184,154,120,.55);
+  border-radius:inherit;
+}
+.couple-showcase .family-card::after { content:none; }
+.couple-card-ornament { color:#b18b76; font:22px var(--serif); margin-bottom:13px; }
+.couple-showcase .family-label {
+  padding:7px 15px;
+  color:#8a625f !important;
+  background:#f2e3df !important;
+  border:1px solid #ddc2b8;
+  font:600 8px var(--sans);
+  letter-spacing:.24em;
+}
+.family-name-kicker { margin-top:20px; color:#a47e68; font:600 9px var(--sans); letter-spacing:.34em; }
+.couple-showcase .family-card h3 {
+  margin:4px 0 8px;
+  color:#593e45 !important;
+  font:400 clamp(45px,5vw,65px)/1.05 var(--serif);
+  letter-spacing:-.035em;
+}
+.couple-name-rule { display:flex; align-items:center; gap:12px; width:100%; max-width:140px; margin:8px auto 16px; color:#b18b76; }
+.couple-name-rule::before,.couple-name-rule::after { content:""; height:1px; flex:1; background:#c8a991; }
+.couple-showcase .family-card p.family-relation { margin:0 0 7px; color:#9a7566 !important; font:italic 16px var(--serif); }
+.couple-showcase .family-card p.family-parents {
+  display:flex; flex-direction:column; align-items:center; gap:3px;
+  margin:0; color:#59474a !important; font:italic clamp(17px,1.8vw,21px)/1.45 var(--serif);
+}
+.couple-showcase .family-card p.family-parents span { color:#b18b76; font-size:16px; }
+.couple-showcase .family-card .family-small {
+  max-width:245px; margin-top:auto; padding-top:17px;
+  color:#8b7775 !important; border-top:1px solid #dec9c0;
+  font:500 8px/1.8 var(--sans); letter-spacing:.12em; text-transform:uppercase;
+}
+.couple-crest { display:flex; flex-direction:column; align-items:center; justify-content:center; gap:10px; }
+.crest-medallion {
+  display:grid; place-items:center; width:76px; height:76px; padding:12px;
+  border:1px solid #b89a78; border-radius:50%;
+  background:radial-gradient(circle,#fffaf8 0 54%,#e8d7cf 55% 57%,#f7efeb 58%);
+  box-shadow:0 8px 22px rgba(63,39,45,.12),inset 0 0 0 4px #fffaf8;
+}
+.crest-medallion img { width:100%; height:100%; object-fit:contain; }
+.crest-caption { color:#98745f; font:600 8px var(--sans); letter-spacing:.24em; }
+@media(max-width:700px) {
+  .couple-showcase { grid-template-columns:minmax(0,1fr); gap:15px; max-width:440px; }
+  .couple-showcase .family-card { min-height:330px; padding:31px 20px 24px; border-radius:48% 48% 8px 8px / 15% 15% 8px 8px; }
+  .couple-showcase .family-card h3 { font-size:clamp(48px,13vw,62px); }
+  .couple-crest { padding:2px 0; }
+  .crest-medallion { width:62px; height:62px; }
+}
+@media(max-width:360px) {
+  .couple-showcase .family-card { min-height:310px; }
+  .couple-showcase .family-card p.family-parents { font-size:18px; }
+}
+
 </style>
 
 
@@ -3942,6 +4081,38 @@ nav a { flex-shrink:0; }
       <div class="rule" style="background:var(--gold)"></div>
 
       <p>Mrs. Pratibha &amp; Late Mr. Prabhakar Vedak</p>
+
+    </div>
+
+    <!-- BRIDE & GROOM SHOWCASE -->
+    <div class="couple-showcase" aria-label="Bride and groom details">
+
+      <article class="family-card groom-card reveal">
+        <div class="couple-card-ornament" aria-hidden="true">✧</div>
+        <span class="family-label">The Groom</span>
+        <span class="family-name-kicker">ER.</span>
+        <h3>Danish</h3>
+        <div class="couple-name-rule" aria-hidden="true"><span>✦</span></div>
+        <p class="family-relation">Son of</p>
+        <p class="family-parents">Mrs. Heena <span>&amp;</span> Mr. Feroz Khan</p>
+        <div class="family-small">With love and gratitude to his family</div>
+      </article>
+
+      <div class="couple-crest" aria-label="Danish and Alfiya monogram">
+        <div class="crest-medallion"><img src="./AD-monogram.png" alt="Danish and Alfiya monogram"></div>
+        <span class="crest-caption">D &amp; A</span>
+      </div>
+
+      <article class="family-card bride-card reveal">
+        <div class="couple-card-ornament" aria-hidden="true">✧</div>
+        <span class="family-label">The Bride</span>
+        <span class="family-name-kicker">ER.</span>
+        <h3>Alfiya</h3>
+        <div class="couple-name-rule" aria-hidden="true"><span>✦</span></div>
+        <p class="family-relation">Daughter of</p>
+        <p class="family-parents">Mrs. Rabiyabi <span>&amp;</span> Mr. Ashfaque Mukadam</p>
+        <div class="family-small">With love and gratitude to her family</div>
+      </article>
 
     </div>
 
@@ -4690,6 +4861,5 @@ form.addEventListener("submit", event => {
 }
 
 </style>
-
 
 
